@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.adamasmaca.kategoriler">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/btn_geri2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        app:srcCompat="@drawable/kategoriler_ekrani" />
+
+    <Button
+        android:id="@+id/btn_bilim"
+
+        android:layout_width="175dp"
+        android:layout_height="35dp"
+
+        android:layout_alignLeft="@+id/btn_tarih"
+        android:layout_alignStart="@+id/btn_tarih"
+        android:layout_below="@+id/btn_tarih"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/buttonshape"
+        android:onClick="btn_bilim"
+        android:shadowColor="#5C5C5C"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="25"
+        android:text="BİLİM"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.55"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.416" />
+
+    <Button
+        android:id="@+id/btn_tarih"
+
+        android:layout_width="175dp"
+        android:layout_height="35dp"
+
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="2dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="197dp"
+        android:layout_toEndOf="@+id/btn_geri2"
+        android:layout_toRightOf="@+id/btn_geri2"
+        android:background="@drawable/buttonshape"
+        android:onClick="btn_tarih"
+        android:shadowColor="#5C5C5C"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="25"
+        android:text="TARİH"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.565"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+    android:id="@+id/btn_cografya"
+
+    android:layout_width="175dp"
+    android:layout_height="35dp"
+
+
+    android:layout_alignLeft="@+id/btn_bilim"
+    android:layout_alignStart="@+id/btn_bilim"
+    android:layout_centerVertical="true"
+    android:layout_marginBottom="276dp"
+    android:layout_marginEnd="8dp"
+    android:layout_marginStart="8dp"
+    android:layout_marginTop="8dp"
+    android:background="@drawable/buttonshape"
+    android:onClick="btn_cografya"
+    android:shadowColor="#5C5C5C"
+    android:shadowDx="0"
+    android:shadowDy="0"
+    android:shadowRadius="25"
+    android:text="COĞRAFYA"
+    android:textColor="#000000"
+    android:textSize="15sp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.55"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.956" />
+
+    <Button
+    android:id="@+id/btn_eglence"
+
+    android:layout_width="175dp"
+    android:layout_height="35dp"
+
+
+    android:layout_alignLeft="@+id/btn_bilim"
+    android:layout_alignStart="@+id/btn_bilim"
+    android:layout_centerVertical="true"
+    android:layout_marginBottom="10dp"
+    android:layout_marginEnd="8dp"
+    android:layout_marginStart="8dp"
+    android:layout_marginTop="8dp"
+    android:background="@drawable/buttonshape"
+    android:onClick="btn_eglence"
+    android:shadowColor="#5C5C5C"
+    android:shadowDx="0"
+    android:shadowDy="0"
+    android:shadowRadius="25"
+    android:text="EĞLENCE"
+    android:textColor="#000000"
+    android:textSize="15sp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.55"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.568" />
+
+    <Button
+        android:id="@+id/btn_edebiyat"
+
+        android:layout_width="175dp"
+        android:layout_height="35dp"
+
+
+        android:layout_alignLeft="@+id/btn_bilim"
+        android:layout_alignStart="@+id/btn_bilim"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/buttonshape"
+        android:onClick="btn_edebiyat"
+        android:shadowColor="#5C5C5C"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="25"
+        android:text="EDEBİYAT"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.55"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.645" />
+
+    <Button
+        android:id="@+id/btn_sanat"
+
+        android:layout_width="175dp"
+        android:layout_height="35dp"
+
+
+        android:layout_alignLeft="@+id/btn_bilim"
+        android:layout_alignStart="@+id/btn_bilim"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="11dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/buttonshape"
+        android:onClick="btn_sanat"
+        android:shadowColor="#5C5C5C"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="25"
+        android:text="SANAT"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.55"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.794" />
+
+    <Button
+        android:id="@+id/btn_spor"
+
+        android:layout_width="175dp"
+        android:layout_height="35dp"
+
+
+        android:layout_alignLeft="@+id/btn_bilim"
+        android:layout_alignStart="@+id/btn_bilim"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="11dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/buttonshape"
+        android:onClick="btn_spor"
+        android:shadowColor="#5C5C5C"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="25"
+        android:text="SPOR"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.55"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.72" />
+
+    <Button
+        android:id="@+id/btn_geri"
+
+        android:layout_width="91dp"
+        android:layout_height="27dp"
+
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/buttonshape"
+        android:onClick="btn_geri"
+        android:shadowColor="#5C5C5C"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="25"
+        android:text="GERİ"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageView5"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">AdamAsmaca</string>
+    <string name="nasil_oynanir">NASIL OYNANIR?</string>
+    <string name="ba_lat">BAŞLAT</string>
+    <string name="iki">ÇIKIŞ</string>
+    <string name="hakkinda">HAKKINDA</string>
+    <string name="ayarlar">AYARLAR</string>
+</resources>
